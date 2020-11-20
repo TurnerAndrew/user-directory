@@ -10,7 +10,7 @@ class PersonDetail extends Component{
         
         return (
             <div className='card'>
-                <h1 className='id'>{this.props.currentPerson.id}/25</h1>
+                <h1 className = 'id'>{this.props.currentPerson.id}/25</h1>
                 <h1 className='name'>{this.props.currentPerson.name.first} {this.props.currentPerson.name.last}</h1>
                     <span className='info'>
                         <h3>From:  {this.props.currentPerson.city}</h3>

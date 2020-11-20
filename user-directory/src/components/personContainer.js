@@ -13,7 +13,7 @@ class personContainer extends Component {
 
     nextPerson(){
         let index = this.state.currentIndex
-        if(index < data.length){
+        if(index < data.length - 1){
         this.setState({currentIndex: index + 1 })
         }   
     }
@@ -32,8 +32,8 @@ class personContainer extends Component {
                 currentPerson={data[this.state.currentIndex]}
                 />
                 <div className='buttons'>
-                    <h3 onClick={() => this.previousPerson()}>Prev</h3>
-                    <h3 onClick={() => this.nextPerson()}>Next</h3>
+                    <h3 onClick={() => this.previousPerson()}>{'<'} Prev</h3>
+                    <h3 onClick={() => this.nextPerson()}>Next {'>'}</h3>
                 </div>
             </div>
         )

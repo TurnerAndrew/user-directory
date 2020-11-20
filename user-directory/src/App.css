@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
   width: 100vw;
   height: 100vh;
   background-color: #222222;
@@ -11,7 +10,8 @@
 
 .header {
   background-color: #33a5d3;
-  width: 100%;
+  box-sizing: border-box;
+  width: 100vw;
   height: 7.5vh;
   color: #222222;
   position: absolute;
@@ -55,10 +55,11 @@
 }
 
 .id{
+  width: 100%;
   color: #222222;
   position: relative;
+  top: -2.5%;
   right: -92.5%;
-  height: auto
 }
 
 .buttons {
