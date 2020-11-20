@@ -32,7 +32,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-top: 2.5%;
   padding-left: 5%;
   text-align: left;
 }
@@ -52,13 +51,13 @@
 .movies {
   color: #222222;
   height: auto;
+  width: 100%;
 }
 
 .id{
   color: #222222;
   position: relative;
-  top: -2.5%;
-  right: -80%;
+  right: -92.5%;
   height: auto
 }
 
@@ -67,4 +66,11 @@
   display: flex;
   justify-content: space-between;
   color: #ebebeb;
+}
+
+.movie-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
 }

@@ -34,7 +34,7 @@ class personContainer extends Component {
                 <div className='buttons'>
                     <h3 onClick={() => this.previousPerson()}>Prev</h3>
                     <h3 onClick={() => this.nextPerson()}>Next</h3>
-                    </div>
+                </div>
             </div>
         )
     }
